@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://janagoetze.github.io/iiif_training/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in janagoetze/iiif_training project"
+        ]
+    },
+    "items": []
+}
