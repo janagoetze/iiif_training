@@ -9,7 +9,7 @@
       "motivation": "painting",
       "body": {
         "type": "TextualBody",
-        "language": "de",
+        "language": "en",
         "format": "text/plain",
         "value": "bird body"
       },
@@ -28,9 +28,39 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=113,260,127,130"
+          "value": "xywh=131,32,309,95"
+        }
+      }
+    },
+        {
+      "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds.json/annotation2",
+      "type": "Annotation",
+      "motivation": "painting",
+      "body": {
+        "type": "TextualBody",
+        "language": "en",
+        "format": "text/plain",
+        "value": "beak"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://janagoetze.github.io/iiif_training/manifests/manifest_birds.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=288,132,1,1"
         }
       }
     }
+
   ]
 }
