@@ -11,5 +11,11 @@
       "en" : [ "Poseidon" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://janagoetze.github.io/iiif_training/manifests/manifest_birds.json",
+    "label" : {
+      "en" : [ "Birds" ]
+    },
+    "type" : "Manifest"
   } ]
 }
