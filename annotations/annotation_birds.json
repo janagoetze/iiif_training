@@ -28,11 +28,11 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=131,32,309,95"
+          "value": "xywh=131,32,309,395"
         }
       }
     },
-        {
+    {
       "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds.json/annotation2",
       "type": "Annotation",
       "motivation": "painting",
@@ -55,12 +55,12 @@
           ]
         },
         "selector": {
-          "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=288,132,1,1"
+          "type": "PointSelector",
+          "x": 288,
+          "y": 132
         }
       }
     }
-
   ]
 }
