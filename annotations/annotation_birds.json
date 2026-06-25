@@ -6,7 +6,7 @@
     {
       "id": "https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/canvas-1/annopage-2/anno-1",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "painting",
       "body": {
         "type": "TextualBody",
         "language": "de",
