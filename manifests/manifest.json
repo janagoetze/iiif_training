@@ -1,217 +1,337 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://janagoetze.github.io/iiif_training/manifests/manifest.json",
-  "type" : "Manifest",
-  "summary" : {
-    "en" : [ "Two images of Poseidon." ]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://janagoetze.github.io/iiif_training/manifests/manifest.json",
+  "type": "Manifest",
+  "summary": {
+    "en": [
+      "Two images of Poseidon."
+    ]
   },
-  "requiredStatement" : {
-    "label" : {
-      "en" : [ "Attribution" ]
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
     },
-    "value" : {
-      "en" : [ "Drawing: Yale Center for British Art, Paul Mellon Collection. Photo: Private." ]
+    "value": {
+      "en": [
+        "Drawing: Yale Center for British Art, Paul Mellon Collection. Photo: Private."
+      ]
     }
   },
-  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
-  "label" : {
-    "en" : [ "Poseidon" ]
+  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "label": {
+    "en": [
+      "Poseidon"
+    ]
   },
-  "metadata" : [ {
-    "label" : {
-      "en" : [ "Description" ],
-      "de" : [ "Beschreibung" ],
-      "sv" : [ "Beskrivning" ]
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Description"
+        ],
+        "de": [
+          "Beschreibung"
+        ],
+        "sv": [
+          "Beskrivning"
+        ]
+      },
+      "value": {
+        "en": [
+          "Two depictions of Poseidon, the Greek god of the sea. The first is a drawing from the Yale Center for British Art, and the second is a photograph from a private collection."
+        ],
+        "de": [
+          "Zwei Darstellungen des Poseidon, dem griechischen Gott des Meeres. Die erste ist eine Zeichnung vom Yale Center for British Art, und die zweite ist ein Foto aus einer privaten Sammlung."
+        ],
+        "sv": [
+          "Två avbildningar av Poseidon, den grekiska havsguden. Den första är en teckning från Yale Center for British Art, och den andra är ett fotografi från en privat samling."
+        ]
+      }
     },
-    "value" : {
-      "en" : [ "Two depictions of Poseidon, the Greek god of the sea. The first is a drawing from the Yale Center for British Art, and the second is a photograph from a private collection." ],
-      "de" : [ "Zwei Darstellungen des Poseidon, dem griechischen Gott des Meeres. Die erste ist eine Zeichnung vom Yale Center for British Art, und die zweite ist ein Foto aus einer privaten Sammlung." ],
-      "sv" : [ "Två avbildningar av Poseidon, den grekiska havsguden. Den första är en teckning från Yale Center for British Art, och den andra är ett fotografi från en privat samling." ]
+    {
+      "label": {
+        "en": [
+          "Creator"
+        ],
+        "de": [
+          "Urheber"
+        ],
+        "sv": [
+          "Skapare"
+        ]
+      },
+      "value": {
+        "none": [
+          "Jana"
+        ]
+      }
     }
-  }, {
-    "label" : {
-      "en" : [ "Creator" ],
-      "de" : [ "Urheber" ],
-      "sv" : [ "Skapare" ]
-    },
-    "value" : {
-      "none" : [ "Jana" ]
-    }
-  } ],
-  "items" : [ {
-    "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
-    "type" : "Canvas",
-    "height" : 4993,
-    "width" : 4074,
-    "label" : {
-      "en" : [ "Poseidon drawing" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571/full/509,/0/default.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "height" : 624,
-      "width" : 509
-    } ],
-    "items" : [ {
-      "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw/annotation-page/9tn8qui1rgt-mqrrynsw",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/annotation/z5m5f8zi4dm-mqrrynsw",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
-        "body" : {
-          "id" : "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571/full/max/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 4993,
-          "width" : 4074,
-          "service" : [ {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571",
-            "height" : 4993,
-            "metadata" : {
-              "caption" : "recto, cropped to image",
-              "source" : "Yale Center for British Art",
-              "imageCredit" : "Digital Image: Yale Center for British Art"
-            },
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "formats" : [ "jpg", "tif", "gif", "png" ],
-              "qualities" : [ "bitonal", "default", "gray", "color" ],
-              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "height" : 156,
-              "width" : 127
-            }, {
-              "height" : 312,
-              "width" : 255
-            }, {
-              "height" : 624,
-              "width" : 509
-            }, {
-              "height" : 1248,
-              "width" : 1019
-            }, {
-              "height" : 2497,
-              "width" : 2037
-            }, {
-              "height" : 4993,
-              "width" : 4074
-            } ],
-            "tiles" : [ {
-              "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ],
-              "width" : 512
-            } ],
-            "width" : 4074
-          } ]
+  ],
+  "items": [
+    {
+      "id": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
+      "type": "Canvas",
+      "height": 4993,
+      "width": 4074,
+      "label": {
+        "en": [
+          "Poseidon drawing"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571/full/509,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 624,
+          "width": 509
         }
-      } ]
-    } ]
-  }, {
-    "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
-    "type" : "Canvas",
-    "height" : 3468,
-    "width" : 4624,
-    "label" : {
-      "en" : [ "Poseidon photo" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg/full/289,/0/default.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "height" : 217,
-      "width" : 289
-    } ],
-    "items" : [ {
-      "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00/annotation-page/23egls596bs-mqrs0m00",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/annotation/1od3v27j5o6h-mqrs0m00",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
-        "body" : {
-          "id" : "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg/full/max/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 3468,
-          "width" : 4624,
-          "service" : [ {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg",
-            "protocol" : "http://iiif.io/api/image",
-            "width" : 4624,
-            "height" : 3468,
-            "sizes" : [ {
-              "width" : 145,
-              "height" : 108
-            }, {
-              "width" : 289,
-              "height" : 217
-            }, {
-              "width" : 578,
-              "height" : 434
-            }, {
-              "width" : 1156,
-              "height" : 867
-            }, {
-              "width" : 2312,
-              "height" : 1734
-            }, {
-              "width" : 4624,
-              "height" : 3468
-            } ],
-            "tiles" : [ {
-              "width" : 512,
-              "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
-            } ],
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "formats" : [ "tif", "jpg", "gif", "png" ],
-              "maxArea" : 16036032,
-              "qualities" : [ "bitonal", "default", "gray", "color" ],
-              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
-            } ]
-          } ]
+      ],
+      "items": [
+        {
+          "id": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw/annotation-page/9tn8qui1rgt-mqrrynsw",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/06sbzx35mq8d-mqrrs17i/annotation/z5m5f8zi4dm-mqrrynsw",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
+              "body": {
+                "id": "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4993,
+                "width": 4074,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:de3f822f-4e4a-4f19-a02a-a69b5f3d4571",
+                    "height": 4993,
+                    "metadata": {
+                      "caption": "recto, cropped to image",
+                      "source": "Yale Center for British Art",
+                      "imageCredit": "Digital Image: Yale Center for British Art"
+                    },
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "sizeAboveFull",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "height": 156,
+                        "width": 127
+                      },
+                      {
+                        "height": 312,
+                        "width": 255
+                      },
+                      {
+                        "height": 624,
+                        "width": 509
+                      },
+                      {
+                        "height": 1248,
+                        "width": 1019
+                      },
+                      {
+                        "height": 2497,
+                        "width": 2037
+                      },
+                      {
+                        "height": 4993,
+                        "width": 4074
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ],
+                        "width": 512
+                      }
+                    ],
+                    "width": 4074
+                  }
+                ]
+              }
+            }
+          ]
         }
-      } ]
-    } ]
-  } ],
-  "structures" : [ {
-    "id" : "http://example.org/iiif/book1/range/top",
-    "type" : "Range",
-    "label" : "Table of Content",
-    "items" : [ {
-      "id" : "http://example.org/iiif/book1/range/intro",
-      "type" : "Range",
-      "label" : "Introduction",
-      "items" : [ {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
-        "type" : "Canvas"
-      }, {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
-        "type" : "Canvas"
-      } ]
-    }, {
-      "id" : "http://example.org/iiif/book1/range/image1",
-      "type" : "Range",
-      "label" : "Image 1",
-      "items" : [ {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/hlly3qvq449-mqrrynsw",
-        "type" : "Canvas"
-      } ]
-    }, {
-      "id" : "http://example.org/iiif/book1/range/image2",
-      "type" : "Range",
-      "label" : "Image 2",
-      "items" : [ {
-        "id" : "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
-        "type" : "Canvas"
-      } ]
-    } ]
-  } ]
+      ]
+    },
+    {
+      "id": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
+      "type": "Canvas",
+      "height": 3468,
+      "width": 4624,
+      "label": {
+        "en": [
+          "Poseidon photo"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg/full/289,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 217,
+          "width": 289
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00/annotation-page/23egls596bs-mqrs0m00",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/06sbzx35mq8d-mqrrs17i/annotation/1od3v27j5o6h-mqrs0m00",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/06sbzx35mq8d-mqrrs17i/canvas/91kua5l920j-mqrs0m00",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3468,
+                "width": 4624,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/20260611-184700%2f20260611_184700.jpg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 4624,
+                    "height": 3468,
+                    "sizes": [
+                      {
+                        "width": 145,
+                        "height": 108
+                      },
+                      {
+                        "width": 289,
+                        "height": 217
+                      },
+                      {
+                        "width": 578,
+                        "height": 434
+                      },
+                      {
+                        "width": 1156,
+                        "height": 867
+                      },
+                      {
+                        "width": 2312,
+                        "height": 1734
+                      },
+                      {
+                        "width": 4624,
+                        "height": 3468
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 16036032,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
