@@ -1,0 +1,36 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/annotationpage.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/canvas-1/annopage-2/anno-1",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "language": "de",
+        "format": "text/plain",
+        "value": "Der Gänseliesel-Brunnen"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://janagoetze.github.io/iiif_training/manifests/manifest_birds.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=30,80,120,120"
+        }
+      }
+    }
+  ]
+}
