@@ -132,7 +132,7 @@
       ],
       "annotations": [
         {
-          "id": "https://iiif.io/api/cookbook/recipe/0306-linking-annotations-to-manifests/annotationpage.json",
+          "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds.json",
           "type": "AnnotationPage"
         }
       ]
