@@ -1,0 +1,516 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://janagoetze.github.io/iiif_training/manifests/manifest_birds.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Birds" ]
+  },
+  "requiredStatement" : {
+    "value" : {
+      "en" : [ "The Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "label" : {
+      "en" : [ "Dataset" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/licenses/by/4.0/",
+  "items" : [ {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl",
+    "type" : "Canvas",
+    "height" : 477,
+    "width" : 500,
+    "label" : {
+      "en" : [ "Cardinal 1" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Cardinal_0078_17181" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a cardinal from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0078_17181/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 477,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl/annotation-page/1cz2ff3pfelh-mqtmumvl",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/hok964kzg9j-mqtmumvl",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0078_17181/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 477,
+          "width" : 500,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 15
+            }, {
+              "width" : 32,
+              "height" : 30
+            }, {
+              "width" : 63,
+              "height" : 60
+            }, {
+              "width" : 125,
+              "height" : 120
+            }, {
+              "width" : 250,
+              "height" : 239
+            }, {
+              "width" : 500,
+              "height" : 477
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 500,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0078_17181",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 477
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/yz45ycgzte-mqtmv9oa",
+    "type" : "Canvas",
+    "height" : 362,
+    "width" : 500,
+    "label" : {
+      "en" : [ "Cardinal 2" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Cardinal_0025_17239" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a cardinal from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0025_17239/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 362,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/yz45ycgzte-mqtmv9oa/annotation-page/qfzskqwto6c-mqtmv9oa",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/6h7w3cm2upm-mqtmv9oa",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/yz45ycgzte-mqtmv9oa",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0025_17239/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 362,
+          "width" : 500,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 12
+            }, {
+              "width" : 32,
+              "height" : 23
+            }, {
+              "width" : 63,
+              "height" : 46
+            }, {
+              "width" : 125,
+              "height" : 91
+            }, {
+              "width" : 250,
+              "height" : 181
+            }, {
+              "width" : 500,
+              "height" : 362
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 500,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0025_17239",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 362
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/x6zd4swiy-mqtmw2gn",
+    "type" : "Canvas",
+    "height" : 500,
+    "width" : 431,
+    "label" : {
+      "en" : [ "Cardinal 3" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Cardinal_0018_17071" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a cardinal from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0018_17071/full/431,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 500,
+      "width" : 431
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/x6zd4swiy-mqtmw2gn/annotation-page/tm0dat88b1-mqtmw2gn",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/qks7mwvwny-mqtmw2gn",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/x6zd4swiy-mqtmw2gn",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0018_17071/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 500,
+          "width" : 431,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 14,
+              "height" : 16
+            }, {
+              "width" : 27,
+              "height" : 32
+            }, {
+              "width" : 54,
+              "height" : 63
+            }, {
+              "width" : 108,
+              "height" : 125
+            }, {
+              "width" : 216,
+              "height" : 250
+            }, {
+              "width" : 431,
+              "height" : 500
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 431,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Cardinal_0018_17071",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 500
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/nohwtzok0ej-mqtmwkf9",
+    "type" : "Canvas",
+    "height" : 500,
+    "width" : 446,
+    "label" : {
+      "en" : [ "Yellow headed blackbird 1" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Yellow_Headed_Blackbird_0095_8458" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a yellow-headed blackbird from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0095_8458/full/446,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 500,
+      "width" : 446
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/nohwtzok0ej-mqtmwkf9/annotation-page/d5trloedyhw-mqtmwkf9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/22g6cne5hd8-mqtmwkf9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/nohwtzok0ej-mqtmwkf9",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0095_8458/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 500,
+          "width" : 446,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 14,
+              "height" : 16
+            }, {
+              "width" : 28,
+              "height" : 32
+            }, {
+              "width" : 56,
+              "height" : 63
+            }, {
+              "width" : 112,
+              "height" : 125
+            }, {
+              "width" : 223,
+              "height" : 250
+            }, {
+              "width" : 446,
+              "height" : 500
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 446,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0095_8458",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 500
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/7c9zzbyr5zx-mqtmx14f",
+    "type" : "Canvas",
+    "height" : 375,
+    "width" : 500,
+    "label" : {
+      "en" : [ "Yellow headed blackbird 2" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Yellow_Headed_Blackbird_0008_8756" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a yellow-headed blackbird from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "requiredStatement" : {
+      "value" : {
+        "en" : [ "" ]
+      },
+      "label" : {
+        "en" : [ "" ]
+      }
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0008_8756/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 375,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/7c9zzbyr5zx-mqtmx14f/annotation-page/hrkepmrazg9-mqtmx14f",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/u5gsojvopca-mqtmx14f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/7c9zzbyr5zx-mqtmx14f",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0008_8756/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 375,
+          "width" : 500,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 12
+            }, {
+              "width" : 32,
+              "height" : 24
+            }, {
+              "width" : 63,
+              "height" : 47
+            }, {
+              "width" : 125,
+              "height" : 94
+            }, {
+              "width" : 250,
+              "height" : 188
+            }, {
+              "width" : 500,
+              "height" : 375
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 500,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0008_8756",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 375
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/qcskfdqoggq-mqtmxom7",
+    "type" : "Canvas",
+    "height" : 454,
+    "width" : 500,
+    "label" : {
+      "en" : [ "Yellow headed blackbird 3" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "image_id" ]
+      },
+      "value" : {
+        "en" : [ "Yellow_Headed_Blackbird_0013_8362" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Image of a yellow-headed blackbird from the Caltech-UCSD Birds-200-2011 Dataset" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0013_8362/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 454,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/qcskfdqoggq-mqtmxom7/annotation-page/oihi1xhuld-mqtmxom7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/annotation/xu1xzoxrv5k-mqtmxom7",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/qcskfdqoggq-mqtmxom7",
+        "body" : {
+          "id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0013_8362/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 454,
+          "width" : 500,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 15
+            }, {
+              "width" : 32,
+              "height" : 29
+            }, {
+              "width" : 63,
+              "height" : 57
+            }, {
+              "width" : 125,
+              "height" : 114
+            }, {
+              "width" : 250,
+              "height" : 227
+            }, {
+              "width" : 500,
+              "height" : 454
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 500,
+            "@id" : "https://janagoetze.github.io/iiif_test/images/Yellow_Headed_Blackbird_0013_8362",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 454
+          } ]
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/range/l826u2x82qh-mqtmykwt",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "Table of contents" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/range/9dgan2ftr8-mqtmykwp",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Cardinal" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/3s0njbv47pp-mqtmumvl",
+        "type" : "Canvas"
+      }, {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/yz45ycgzte-mqtmv9oa",
+        "type" : "Canvas"
+      }, {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/x6zd4swiy-mqtmw2gn",
+        "type" : "Canvas"
+      } ]
+    }, {
+      "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/range/9dgan2ftr8-mqtmykwp/range/egm13nsozo-mqtmzgy3",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Yellow headed blackbird" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/nohwtzok0ej-mqtmwkf9",
+        "type" : "Canvas"
+      }, {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/7c9zzbyr5zx-mqtmx14f",
+        "type" : "Canvas"
+      }, {
+        "id" : "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/qcskfdqoggq-mqtmxom7",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ]
+}
