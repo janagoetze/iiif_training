@@ -4,7 +4,7 @@
   "type": "AnnotationPage",
   "items": [
    {
-      "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds_2.json/annotation6",
+      "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds_2.json/annotation1",
       "type": "Annotation",
       "motivation": "painting",
       "body": {
@@ -29,6 +29,36 @@
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=120,45,370,272"
+        }
+      }
+    },
+    {
+      "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds_2.json/annotation2",
+      "type": "Annotation",
+      "motivation": "painting",
+      "body": {
+        "type": "TextualBody",
+        "language": "en",
+        "format": "text/plain",
+        "value": "throat"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://example.org/g4do5pwxp0i-mqtmfdz1/canvas/yz45ycgzte-mqtmv9oa",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://janagoetze.github.io/iiif_training/manifests/manifest_birds.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "type": "PointSelector",
+          "x": 155,
+          "y": 154
         }
       }
     }
