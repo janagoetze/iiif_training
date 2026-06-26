@@ -129,12 +129,6 @@
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds.json",
-          "type": "AnnotationPage"
-        }
       ]
     },
     {
@@ -698,6 +692,12 @@
           ]
         }
       ]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "https://janagoetze.github.io/iiif_training/annotations/annotation_birds.json",
+      "type": "AnnotationPage"
     }
   ],
   "structures": [
